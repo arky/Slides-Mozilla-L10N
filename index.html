@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+
+	<title>Mozilla's Localization Impact</title>
+	
+	<!-- Required stylesheet -->
+	<link rel="stylesheet" href="deck.js/core/deck.core.css">
+	
+	<!-- Extension CSS files go here. Remove or add as needed. -->
+	<link rel="stylesheet" href="deck.js/extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="deck.js/extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="deck.js/extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="deck.js/extensions/status/deck.status.css">
+	<link rel="stylesheet" href="deck.js/extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="deck.js/extensions/scale/deck.scale.css">
+
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="deck.js/themes/style/web-2.0.css">
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="deck.js/themes/transition/horizontal-slide.css">
+	
+	<!-- Required Modernizr file -->
+	<script src="deck.js/modernizr.custom.js"></script>
+</head>
+<body class="deck-container">
+
+<!-- Begin slides. Just make elements with a class of slide. -->
+
+<section class="slide">
+<img src="images/moz-l10n-background.jpeg" width="100%" height="100%" alt="Mozilla Title page image" />
+</section>
+
+<section class="slide">
+	<h2>Mozilla</h2>
+	<ul>
+	  <li>A non-profit keeping the power of the Web in people's hands.</li>
+	  <li>A global community of users, contributors, and developers working to innovate on your behalf.</li>
+	  <li>Promotes openness, innovation, and opportunity on the web.</li>
+	</ul>
+</section>
+
+<section class="slide">
+<h2>You might know us best for</h2>
+<img src="images/firefox-logo.png" height="50%" width="50%" alt="Mozilla Firefox logo">
+</section>
+
+<section class="slide">
+<video width="640px" height="480px" preload="auto" controls>
+    <source src="videos/firefox-in-your-language.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+</section>
+
+<section class="slide">
+  <h2>Localization</h2>
+  <p>Process of adapting software to seem as if it were originally created
+in user's region(locale) of the world.</p>
+<p>Deals with:
+  <ul>
+    <li>string translation,</li>
+    <li>date/time setting,</li>
+    <li>productization,</li>
+    <li>alternative feature sets etc</li>
+    </ul>
+</p>
+</section>
+
+
+<section class="slide">
+  <h2>How we do it</h2>
+  <ul>
+    <li>Mozilla L10N Drivers </li>
+    <li>L10N teams & Mozilla</li>
+    <li>Rapid Releases</li>
+   </ul>
+</section>
+
+<section class="slide">
+  <h2>Why we do it</h2>
+  <ul>
+    <li>We love a good challenge ;-)</li>
+    <li>We love the web!</li>
+    <li>We love language, cultures, and people!</li>
+    <li>We love open source!</li>
+   </ul>
+</section>
+
+
+<section class="slide">
+  <h2>People of mozilla l10N</h2>
+<p>Thoughts about mozilla l10n</p>
+  <ul>
+    <li class="slide">"I wanted to do something..."</li>
+    <li class="slide">"Nowadays is easier to find.."</li>
+    <li class="slide">"I was intrigued.."</li>
+    <li class="slide">"Now I also do it to give back to Mozilla"</li>
+    <li class="slide">"Minority language need a presence on the Internet .."</li>
+   </ul>
+</section>
+
+
+<section class="slide">
+  <video width="50%" height="50%" controls>
+    <source src="assets/armen-story.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video> 
+  <blockquote>
+<p>I tried to help Armenian localizers so my grandfather could use Firefox in Armenian.</p>
+<p><cite>Armen</cite></p>
+</blockquote>
+</section>
+
+<section class="slide">
+<h2>Five easy steps to start</h2>
+
+<!-- <img src="images/firefox-aurora.png" width="50%" height="50%" alt="Firefox Aurora logo" /> -->
+<ol>
+<li>Introduce yourself in the L10n newsgroup.</li>
+<li>Find your L10n team and contact its team owner.</li>
+<li>Download your localized build of Firefox Aurora.</li>
+<li>Create a Bugzilla account.</li>
+<li>Proofread and test your locale's Firefox Aurora.</li>
+</ol>
+</section>
+
+<section class="slide">
+<h2>L10n opportunities</h2>
+<ul>
+  <li>Help localize Mozilla products, like Firefox.</li>
+  <li>Help localize Mozilla Web Sites, Services, and Marketing Campaigns.</li>
+  <li>Translate articles on the Firefox Support site.</li>
+  <li>Translate wiki pages related to localization on the Mozilla Developer Network wiki(MDN)</li>
+  <li>Contribute articles to the l10n topic on the MDN wiki.</li>
+</ul>
+</section>
+
+
+<!-- End slides. -->
+
+
+<!-- Begin extension snippets. Add or remove as needed. -->
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<!-- deck.status snippet -->
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<!-- deck.goto snippet -->
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<!-- End extension snippets. -->
+
+
+<!-- Required JS files. -->
+<script src="deck.js/jquery-1.7.2.min.js"></script>
+<script src="deck.js/core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="deck.js/core/deck.core.js"></script>
+<script src="deck.js/extensions/hash/deck.hash.js"></script>
+<script src="deck.js/extensions/menu/deck.menu.js"></script>
+<script src="deck.js/extensions/goto/deck.goto.js"></script>
+<script src="deck.js/extensions/status/deck.status.js"></script>
+<script src="deck.js/extensions/navigation/deck.navigation.js"></script>
+<script src="deck.js/extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+	$(function() {
+		$.deck('.slide');
+	});
+</script>
+</body>
+</html>
